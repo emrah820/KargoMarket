@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                 // Hedef JavaScript sürümü
+    "module": "esnext",                 // Modül sistemi
+    "strict": true,                      // Sıkı tip kontrolü
+    "jsx": "react-jsx",                 // JSX dönüşümü
+    "noUnusedLocals": true,            // Kullanılmayan yerel değişkenleri kontrol et
+    "noUnusedParameters": true,         // Kullanılmayan parametreleri kontrol et
+    "skipLibCheck": true,               // Kütüphaneleri kontrol etmeyi atla
+    "forceConsistentCasingInFileNames": true // Dosya adlarında tutarlılığı sağla
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
