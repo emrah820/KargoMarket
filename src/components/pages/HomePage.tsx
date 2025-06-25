@@ -445,19 +445,17 @@ const HomePage: React.FC = () => {
             
             <div className="max-w-5xl mx-auto">
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-                <div className="aspect-video relative">
-                  <div className="absolute inset-0 bg-gray-900 flex items-center justify-center">
-                    <div className="text-center">
-                      <button 
-                        onClick={() => setVideoModalOpen(true)}
-                        className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg hover:scale-125 transition-all duration-500 mb-4 group hover:shadow-2xl hover:bg-primary-50"
-                      >
-                        <Play className="text-primary-600 ml-2 group-hover:scale-110 transition-transform duration-300" size={32} />
-                      </button>
-                      <p className="text-white text-lg font-medium">Tanıtım Filmini İzle</p>
-                      <p className="text-gray-300 text-sm mt-2">2:45 dk • HD Kalite • TR/EN Altyazı</p>
-                    </div>
-                  </div>
+                <div className="aspect-video relative flex items-center justify-center">
+                  <iframe
+                    id="vp1uPtKt"
+                    title="Kargo Market Nasıl Çalışır? Video"
+                    width="432"
+                    height="243"
+                    frameBorder="0"
+                    src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1750867538&f=uPtKt76FIJhLEgxM8d1KFA&d=0&m=p&r=360p+720p&volume=100&start_res=720p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=autostart"
+                    allowFullScreen
+                    className="mx-auto w-full h-full max-w-2xl rounded-xl shadow-lg"
+                  ></iframe>
                 </div>
                 <div className="p-8 bg-gradient-to-r from-gray-50 to-white">
                   <div className="flex flex-wrap gap-8 justify-center">
